@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cola</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/862b76fbb4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo logo__mobile">
+            <img class="logo__img" src="./images/icons/mobile-header.svg" alt="Coca Cola">
+        </div>
+        <nav class="nav">
+            <div class="nav__container">
+                <div class="nav__logo"><img src="./logo_red.png" alt="cola_logo"></div>
+                <ul class="nav__items">
+                    <li class="nav__item"><a href="#" class="nav__link active">Главная</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Новости</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Напитки</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">о компании</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">контакты</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="nav__panel">
+                <button class="seach nav__seach"><img src="./loupe.svg" alt=""></button>
+                <button class="language nav__language"><img src="./language.svg" alt=""></button>
+            </div>
+            <div class="hamburger">
+                <button class="hamburger__button">
+                    <svg width="40" height="40" viewBox="-6 -6 112 112">
+                        <path class="line line1"
+                            d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                        <path class="line line2" d="M 80 50 H 0 A 50 50 0 1 0 100 50 A 50 50 0 1 0 0 50" />
+                        <path class="line line3"
+                            d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="info">
+            <div class="info__container">
+                <div class="img-carousel">
+                    <div class="img-carousel__overlay">
+                        <div class="img-carousel__container">
+                            <div class="img-carousel__item"><img src="./images/img-1.png" alt="cola"></div>
+                            <div class="img-carousel__item"><img src="./images/img-1.png" alt="cola"></div>
+                            <div class="img-carousel__item"><img src="./images/img-1.png" alt="cola"></div>
+                            <div class="img-carousel__item"><img src="./images/img-1.png" alt="cola"></div>
+                        </div>
+                    </div>
+                    <botton class="arrow info__arrow arrow_left"></botton>
+                    <botton class="arrow info__arrow arrow_right"></botton>
+                    <div class="bullets-mobile">
+                        <ul class="bullets-mobile__container">
+                            <li class="bullets-mobile__item active"></li>
+                            <li class="bullets-mobile__item"></li>
+                            <li class="bullets-mobile__item"></li>
+                            <li class="bullets-mobile__item"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info__description">
+                    <h2 class="info__title">COCA COLA PLASTIC BOTTLE 0.5L</h2>
+                    <div class="info__macronutrients-container">
+                        <div class="info__macronutrients-item">
+                            <span class="info__macronutrients-item-title">Calories</span>
+                            <span class="info__macronutrients-item-amount">210</span>
+                        </div>
+                        <div class="info__macronutrients-item">
+                            <span class="info__macronutrients-item-title">Fat</span>
+                            <span class="info__macronutrients-item-amount">0g</span>
+                        </div>
+                        <div class="info__macronutrients-item">
+                            <span class="info__macronutrients-item-title">Carbs</span>
+                            <span class="info__macronutrients-item-amount">54g</span>
+                        </div>
+                        <div class="info__macronutrients-item">
+                            <span class="info__macronutrients-item-title">Protein</span>
+                            <span class="info__macronutrients-item-amount">0g</span>
+                        </div>
+                    </div>
+                    <div class="info__ingredients">
+                        Carbonated water, sugar/glucose-fructose, caramel colour, phosphoric acid, natural flavour,
+                        caffeine
+                    </div>
+                    <button class="action-button action-button__info">Where to buy</button>
+                    <div class="info__activities">
+                        <span class="info__activities-title">Activity Needed to Burn:</span>
+                        <span class="info__activities-value">210 calories</span>
+                        <ul class="info__activities-items">
+                            <li class="info__activities-item">
+                                <span class="info__activities-icon"><i class="fas fa-walking"></i></span>
+                                <span class="info__activities-value">20</span>
+                                <span class="info__activities-value-caption">Minutes of Running</span>
+                            </li>
+                            <li class="info__activities-item">
+                                <span class="info__activities-icon"><i class="fas fa-biking"></i></span>
+                                <span class="info__activities-value">30</span>
+                                <span class="info__activities-value-caption">Minutes of Cycling</span>
+                            </li>
+                            <li class="info__activities-item">
+                                <span class="info__activities-icon"><i class="fas fa-swimmer"></i></span>
+                                <span class="info__activities-value">26</span>
+                                <span class="info__activities-value-caption">Minutes of Swimming</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
